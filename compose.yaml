@@ -1,0 +1,10 @@
+services:
+  server:
+    restart: always
+    container_name: yoursay-homepage
+    build:
+      context: .
+    ports:
+      - 7070:7070
+    volumes:
+      - ./ssl:/etc/ssl
