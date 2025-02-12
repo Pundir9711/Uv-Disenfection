@@ -1,7 +1,7 @@
 services:
   server:
     restart: always
-    container_name: yoursay-homepage
+    container_name: uv-disenfection
     build:
       context: .
     ports:
