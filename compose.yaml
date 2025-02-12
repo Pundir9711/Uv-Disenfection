@@ -5,6 +5,6 @@ services:
     build:
       context: .
     ports:
-      - 7070:7070
+      - 9090:9090
     volumes:
       - ./ssl:/etc/ssl
